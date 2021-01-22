@@ -3,729 +3,911 @@
     <row>
         <id>jqvmap1_id</id>
         <name>Indonesia</name>
+        <link>https://en.wikipedia.org/wiki/Indonesia</link>
     </row>
     <row>
         <id>jqvmap1_pg</id>
         <name>Papua New Guinea</name>
+        <link>https://en.wikipedia.org/wiki/Papua_New_Guinea</link>
     </row>
     <row>
         <id>jqvmap1_mx</id>
         <name>Mexico</name>
+        <link>https://en.wikipedia.org/wiki/Mexico</link>
     </row>
     <row>
         <id>jqvmap1_ee</id>
         <name>Estonia</name>
+        <link>https://en.wikipedia.org/wiki/Estonia</link>
     </row>
     <row>
         <id>jqvmap1_dz</id>
         <name>Algeria</name>
+        <link>https://en.wikipedia.org/wiki/Algeria</link>
     </row>
     <row>
         <id>jqvmap1_ma</id>
         <name>Morocco</name>
+        <link>https://en.wikipedia.org/wiki/Morocco</link>
     </row>
     <row>
         <id>jqvmap1_mr</id>
         <name>Mauritania</name>
+        <link>https://en.wikipedia.org/wiki/Mauritania</link>
     </row>
     <row>
         <id>jqvmap1_sn</id>
         <name>Senegal</name>
+        <link>https://en.wikipedia.org/wiki/Senegal</link>
     </row>
     <row>
         <id>jqvmap1_gm</id>
         <name>Gambia</name>
+        <link>https://en.wikipedia.org/wiki/The_Gambia</link>
     </row>
     <row>
         <id>jqvmap1_gw</id>
         <name>Guinea-Bissau</name>
+        <link>https://en.wikipedia.org/wiki/Guinea-Bissau</link>
     </row>
     <row>
         <id>jqvmap1_gn</id>
         <name>Guinea</name>
+        <link>https://en.wikipedia.org/wiki/Guinea</link>
     </row>
     <row>
         <id>jqvmap1_sl</id>
         <name>Sierra Leone</name>
+        <link>https://en.wikipedia.org/wiki/Sierra_Leone</link>
     </row>
     <row>
         <id>jqvmap1_lr</id>
         <name>Liberia</name>
+        <link>https://en.wikipedia.org/wiki/Liberia</link>
     </row>
     <row>
         <id>jqvmap1_ci</id>
-        <name>Cote d'Ivoire</name>
+        <name>Cote d`Ivoire</name>
+        <link>https://en.wikipedia.org/wiki/Ivory_Coast</link>
     </row>
     <row>
         <id>jqvmap1_ml</id>
         <name>Mali</name>
+        <link>https://en.wikipedia.org/wiki/Mali</link>
     </row>
     <row>
         <id>jqvmap1_bf</id>
         <name>Burkina Faso</name>
+        <link>https://en.wikipedia.org/wiki/Burkina_Faso</link>
     </row>
     <row>
         <id>jqvmap1_ne</id>
         <name>Niger</name>
+        <link>https://en.wikipedia.org/wiki/Niger</link>
     </row>
     <row>
         <id>jqvmap1_gh</id>
         <name>Ghana</name>
+        <link>https://en.wikipedia.org/wiki/Ghana</link>
     </row>
     <row>
         <id>jqvmap1_tg</id>
         <name>Togo</name>
+        <link>https://en.wikipedia.org/wiki/Togo</link>
     </row>
     <row>
         <id>jqvmap1_bj</id>
         <name>Benin</name>
+        <link>https://en.wikipedia.org/wiki/Benin</link>
     </row>
     <row>
         <id>jqvmap1_ng</id>
         <name>Nigeria</name>
+        <link>https://en.wikipedia.org/wiki/Nigeria</link>
     </row>
     <row>
         <id>jqvmap1_tn</id>
         <name>Tunisia</name>
+        <link>https://en.wikipedia.org/wiki/Tunisia</link>
     </row>
     <row>
         <id>jqvmap1_ly</id>
         <name>Libya</name>
+        <link>https://en.wikipedia.org/wiki/Libya</link>
     </row>
     <row>
         <id>jqvmap1_eg</id>
         <name>Egypt</name>
+        <link>https://en.wikipedia.org/wiki/Egypt</link>
     </row>
     <row>
         <id>jqvmap1_td</id>
         <name>Chad</name>
+        <link>https://en.wikipedia.org/wiki/Chad</link>
     </row>
     <row>
         <id>jqvmap1_sd</id>
         <name>Sudan</name>
+        <link>https://en.wikipedia.org/wiki/Sudan</link>
     </row>
     <row>
         <id>jqvmap1_cm</id>
         <name>Cameroon</name>
+        <link>https://en.wikipedia.org/wiki/Cameroon</link>
     </row>
     <row>
         <id>jqvmap1_er</id>
         <name>Eritrea</name>
+        <link>https://en.wikipedia.org/wiki/Eritrea</link>
     </row>
     <row>
         <id>jqvmap1_dj</id>
         <name>Djibouti</name>
+        <link>https://en.wikipedia.org/wiki/Djibouti</link>
     </row>
     <row>
         <id>jqvmap1_et</id>
         <name>Ethiopia</name>
+        <link>https://en.wikipedia.org/wiki/Ethiopia</link>
     </row>
     <row>
         <id>jqvmap1_so</id>
         <name>Somalia</name>
+        <link>https://en.wikipedia.org/wiki/Somalia</link>
     </row>
     <row>
         <id>jqvmap1_ye</id>
         <name>Yemen</name>
+        <link>https://en.wikipedia.org/wiki/Yemen</link>
     </row>
     <row>
         <id>jqvmap1_cf</id>
         <name>Central African Republic</name>
+        <link>https://en.wikipedia.org/wiki/Central_African_Republic</link>
     </row>
     <row>
         <id>jqvmap1_st</id>
         <name>Sao Tome and Principe</name>
+        <link>https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe</link>
     </row>
     <row>
         <id>jqvmap1_gq</id>
         <name>Equatorial Guinea</name>
+        <link>https://en.wikipedia.org/wiki/Equatorial_Guinea</link>
     </row>
     <row>
         <id>jqvmap1_ga</id>
         <name>Gabon</name>
+        <link>https://en.wikipedia.org/wiki/Gabon</link>
     </row>
     <row>
         <id>jqvmap1_cg</id>
         <name>Congo</name>
+        <link>https://en.wikipedia.org/wiki/Congo</link>
     </row>
     <row>
         <id>jqvmap1_ao</id>
         <name>Angola</name>
+        <link>https://en.wikipedia.org/wiki/Angola</link>
     </row>
     <row>
         <id>jqvmap1_cd</id>
-        <name>Congo</name>
+        <name>Democratic Republic of the Congo</name>
+        <link>https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo</link>
     </row>
     <row>
         <id>jqvmap1_rw</id>
         <name>Rwanda</name>
+        <link>https://en.wikipedia.org/wiki/Rwanda</link>
     </row>
     <row>
         <id>jqvmap1_bi</id>
         <name>Burundi</name>
+        <link>https://en.wikipedia.org/wiki/Burundi</link>
     </row>
     <row>
         <id>jqvmap1_ug</id>
         <name>Uganda</name>
+        <link>https://en.wikipedia.org/wiki/Uganda</link>
     </row>
     <row>
         <id>jqvmap1_ke</id>
         <name>Kenya</name>
+        <link>https://en.wikipedia.org/wiki/Kenya</link>
     </row>
     <row>
         <id>jqvmap1_tz</id>
         <name>Tanzania</name>
+        <link>https://en.wikipedia.org/wiki/Tanzania</link>
     </row>
     <row>
         <id>jqvmap1_zm</id>
         <name>Zambia</name>
+        <link>https://en.wikipedia.org/wiki/Zambia</link>
     </row>
     <row>
         <id>jqvmap1_mw</id>
         <name>Malawi</name>
+        <link>https://en.wikipedia.org/wiki/Malawi</link>
     </row>
     <row>
         <id>jqvmap1_mz</id>
         <name>Mozambique</name>
+        <link>https://en.wikipedia.org/wiki/Mozambique</link>
     </row>
     <row>
         <id>jqvmap1_zw</id>
         <name>Zimbabwe</name>
+        <link>https://en.wikipedia.org/wiki/Zimbabwe</link>
     </row>
     <row>
         <id>jqvmap1_na</id>
         <name>Namibia</name>
+        <link>https://en.wikipedia.org/wiki/Namibia</link>
     </row>
     <row>
         <id>jqvmap1_bw</id>
         <name>Botswana</name>
+        <link>https://en.wikipedia.org/wiki/Botswana</link>
     </row>
     <row>
         <id>jqvmap1_sz</id>
         <name>Swaziland</name>
+        <link>https://en.wikipedia.org/wiki/Eswatini</link>
     </row>
     <row>
         <id>jqvmap1_ls</id>
         <name>Lesotho</name>
+        <link>https://en.wikipedia.org/wiki/Lesotho</link>
     </row>
     <row>
         <id>jqvmap1_za</id>
         <name>South Africa</name>
+        <link>https://en.wikipedia.org/wiki/South_Africa</link>
     </row>
     <row>
         <id>jqvmap1_gl</id>
         <name>Greenland</name>
+        <link>https://en.wikipedia.org/wiki/Greenland</link>
     </row>
     <row>
         <id>jqvmap1_au</id>
         <name>Australia</name>
+        <link>https://en.wikipedia.org/wiki/Australia</link>
     </row>
     <row>
         <id>jqvmap1_nz</id>
         <name>New Zealand</name>
+        <link>https://en.wikipedia.org/wiki/New_Zealand</link>
     </row>
     <row>
         <id>jqvmap1_nc</id>
         <name>New Caledonia</name>
+        <link>https://en.wikipedia.org/wiki/New_Caledonia</link>
     </row>
     <row>
         <id>jqvmap1_my</id>
         <name>Malaysia</name>
+        <link>https://en.wikipedia.org/wiki/Malaysia</link>
     </row>
     <row>
         <id>jqvmap1_bn</id>
         <name>Brunei Darussalam</name>
+        <link>https://en.wikipedia.org/wiki/Brunei</link>
     </row>
     <row>
         <id>jqvmap1_tl</id>
         <name>Timor-Leste</name>
+        <link>https://en.wikipedia.org/wiki/East_Timor</link>
     </row>
     <row>
         <id>jqvmap1_sb</id>
         <name>Solomon Islands</name>
+        <link>https://en.wikipedia.org/wiki/Solomon_Islands</link>
     </row>
     <row>
         <id>jqvmap1_vu</id>
         <name>Vanuatu</name>
+        <link>https://en.wikipedia.org/wiki/Vanuatu</link>
     </row>
     <row>
         <id>jqvmap1_fj</id>
         <name>Fiji</name>
+        <link>https://en.wikipedia.org/wiki/Fiji</link>
     </row>
     <row>
         <id>jqvmap1_ph</id>
         <name>Philippines</name>
+        <link>https://en.wikipedia.org/wiki/Philippines</link>
     </row>
     <row>
         <id>jqvmap1_cn</id>
         <name>China</name>
+        <link>https://en.wikipedia.org/wiki/China</link>
     </row>
     <row>
         <id>jqvmap1_tw</id>
         <name>Taiwan</name>
+        <link>https://en.wikipedia.org/wiki/Taiwan</link>
     </row>
     <row>
         <id>jqvmap1_jp</id>
         <name>Japan</name>
+        <link>https://en.wikipedia.org/wiki/Japan</link>
     </row>
     <row>
         <id>jqvmap1_ru</id>
         <name>Russian Federation</name>
+        <link>https://en.wikipedia.org/wiki/Russia</link>
     </row>
     <row>
         <id>jqvmap1_us</id>
         <name>United States of America</name>
+        <link>https://en.wikipedia.org/wiki/United_States</link>
     </row>
     <row>
         <id>jqvmap1_mu</id>
         <name>Mauritius</name>
+        <link>https://en.wikipedia.org/wiki/Mauritius</link>
     </row>
     <row>
         <id>jqvmap1_re</id>
         <name>Reunion</name>
+        <link>https://en.wikipedia.org/wiki/Holy_Empire_of_Reunion</link>
     </row>
     <row>
         <id>jqvmap1_mg</id>
         <name>Madagascar</name>
+        <link>https://en.wikipedia.org/wiki/Madagascar</link>
     </row>
     <row>
         <id>jqvmap1_km</id>
         <name>Comoros</name>
+        <link>https://en.wikipedia.org/wiki/Comoros</link>
     </row>
     <row>
         <id>jqvmap1_sc</id>
         <name>Seychelles</name>
+        <link>https://en.wikipedia.org/wiki/Seychelles</link>
     </row>
     <row>
         <id>jqvmap1_mv</id>
         <name>Maldives</name>
+        <link>https://en.wikipedia.org/wiki/Maldives</link>
     </row>
     <row>
         <id>jqvmap1_pt</id>
         <name>Portugal</name>
+        <link>https://en.wikipedia.org/wiki/Portugal</link>
     </row>
     <row>
         <id>jqvmap1_es</id>
         <name>Spain</name>
+        <link>https://en.wikipedia.org/wiki/Spain</link>
     </row>
     <row>
         <id>jqvmap1_cv</id>
         <name>Cape Verde</name>
+        <link>https://en.wikipedia.org/wiki/Cape_Verde</link>
     </row>
     <row>
         <id>jqvmap1_pf</id>
         <name>French Polynesia</name>
+        <link>https://en.wikipedia.org/wiki/French_Polynesia</link>
     </row>
     <row>
         <id>jqvmap1_kn</id>
         <name>Saint Kitts and Nevis</name>
+        <link>https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis</link>
     </row>
     <row>
         <id>jqvmap1_ag</id>
         <name>Antigua and Barbuda</name>
+        <link>https://en.wikipedia.org/wiki/Antigua_and_Barbuda</link>
     </row>
     <row>
         <id>jqvmap1_dm</id>
         <name>Dominica</name>
+        <link>https://en.wikipedia.org/wiki/Dominica</link>
     </row>
     <row>
         <id>jqvmap1_lc</id>
         <name>Saint Lucia</name>
+        <link>https://en.wikipedia.org/wiki/Saint_Lucia</link>
     </row>
     <row>
         <id>jqvmap1_bb</id>
         <name>Barbados</name>
+        <link>https://en.wikipedia.org/wiki/Barbados</link>
     </row>
     <row>
         <id>jqvmap1_gd</id>
         <name>Grenada</name>
+        <link>https://en.wikipedia.org/wiki/Grenada</link>
     </row>
     <row>
         <id>jqvmap1_tt</id>
         <name>Trinidad and Tobago</name>
+        <link>https://en.wikipedia.org/wiki/Trinidad_and_Tobago</link>
     </row>
     <row>
         <id>jqvmap1_do</id>
         <name>Dominican Republic</name>
+        <link>https://en.wikipedia.org/wiki/Dominican_Republic</link>
     </row>
     <row>
         <id>jqvmap1_ht</id>
         <name>Haiti</name>
+        <link>https://en.wikipedia.org/wiki/Haiti</link>
     </row>
     <row>
         <id>jqvmap1_fk</id>
         <name>Falkland Islands</name>
+        <link>https://en.wikipedia.org/wiki/Falkland_Islands</link>
     </row>
     <row>
         <id>jqvmap1_is</id>
         <name>Iceland</name>
+        <link>https://en.wikipedia.org/wiki/Iceland</link>
     </row>
     <row>
         <id>jqvmap1_no</id>
         <name>Norway</name>
+        <link>https://en.wikipedia.org/wiki/Norway</link>
     </row>
     <row>
         <id>jqvmap1_lk</id>
         <name>Sri Lanka</name>
+        <link>https://en.wikipedia.org/wiki/Sri_Lanka</link>
     </row>
     <row>
         <id>jqvmap1_cu</id>
         <name>Cuba</name>
+        <link>https://en.wikipedia.org/wiki/Cuba</link>
     </row>
     <row>
         <id>jqvmap1_bs</id>
         <name>Bahamas</name>
+        <link>https://en.wikipedia.org/wiki/The_Bahamas</link>
     </row>
     <row>
         <id>jqvmap1_jm</id>
         <name>Jamaa</name>
+        <link>https://en.wikipedia.org/wiki/Djamaa</link>
     </row>
     <row>
         <id>jqvmap1_ec</id>
         <name>Ecuador</name>
+        <link>https://en.wikipedia.org/wiki/Ecuador</link>
     </row>
     <row>
         <id>jqvmap1_ca</id>
         <name>Canada</name>
+        <link>https://en.wikipedia.org/wiki/Canada</link>
     </row>
     <row>
         <id>jqvmap1_gt</id>
         <name>Guatemala</name>
+        <link>https://en.wikipedia.org/wiki/Guatemala</link>
     </row>
     <row>
         <id>jqvmap1_hn</id>
         <name>Honduras</name>
+        <link>https://en.wikipedia.org/wiki/Honduras</link>
     </row>
     <row>
         <id>jqvmap1_sv</id>
         <name>El Salvador</name>
+        <link>https://en.wikipedia.org/wiki/El_Salvador</link>
     </row>
     <row>
         <id>jqvmap1_ni</id>
         <name>Nicaragua</name>
+        <link>https://en.wikipedia.org/wiki/Nicaragua</link>
     </row>
     <row>
         <id>jqvmap1_cr</id>
         <name>Costa Rica</name>
+        <link>https://en.wikipedia.org/wiki/Costa_Rica</link>
     </row>
     <row>
         <id>jqvmap1_pa</id>
         <name>Panama</name>
+        <link>https://en.wikipedia.org/wiki/Panama</link>
     </row>
     <row>
         <id>jqvmap1_co</id>
         <name>Colombia</name>
+        <link>https://en.wikipedia.org/wiki/Colombia</link>
     </row>
     <row>
         <id>jqvmap1_ve</id>
         <name>Venezuela</name>
+        <link>https://en.wikipedia.org/wiki/Venezuela</link>
     </row>
     <row>
         <id>jqvmap1_gy</id>
         <name>Guyana</name>
+        <link>https://en.wikipedia.org/wiki/Guyana</link>
     </row>
     <row>
         <id>jqvmap1_sr</id>
         <name>Suriname</name>
+        <link>https://en.wikipedia.org/wiki/Suriname</link>
     </row>
     <row>
         <id>jqvmap1_gf</id>
         <name>French Guiana</name>
+        <link>https://en.wikipedia.org/wiki/French_Guiana</link>
     </row>
     <row>
         <id>jqvmap1_pe</id>
         <name>Peru</name>
+        <link>https://en.wikipedia.org/wiki/Peru</link>
     </row>
     <row>
         <id>jqvmap1_bo</id>
         <name>Bolivia</name>
+        <link>https://en.wikipedia.org/wiki/Bolivia</link>
     </row>
     <row>
         <id>jqvmap1_py</id>
         <name>Paraguay</name>
+        <link>https://en.wikipedia.org/wiki/Paraguay</link>
     </row>
     <row>
         <id>jqvmap1_uy</id>
         <name>Uruguay</name>
+        <link>https://en.wikipedia.org/wiki/Uruguay</link>
     </row>
     <row>
         <id>jqvmap1_ar</id>
         <name>Argentina</name>
+        <link>https://en.wikipedia.org/wiki/Argentina</link>
     </row>
     <row>
         <id>jqvmap1_cl</id>
         <name>Chile</name>
+        <link>https://en.wikipedia.org/wiki/Chile</link>
     </row>
     <row>
         <id>jqvmap1_br</id>
         <name>Brazil</name>
+        <link>https://en.wikipedia.org/wiki/Brazil</link>
     </row>
     <row>
         <id>jqvmap1_bz</id>
         <name>Belize</name>
+        <link>https://en.wikipedia.org/wiki/Belize</link>
     </row>
     <row>
         <id>jqvmap1_mn</id>
         <name>Mongolia</name>
+        <link>https://en.wikipedia.org/wiki/Mongolia</link>
     </row>
     <row>
         <id>jqvmap1_kp</id>
         <name>North Korea</name>
+        <link>https://en.wikipedia.org/wiki/North_Korea</link>
     </row>
     <row>
         <id>jqvmap1_kr</id>
         <name>South Korea</name>
+        <link>https://en.wikipedia.org/wiki/South_Korea</link>
     </row>
     <row>
         <id>jqvmap1_kz</id>
         <name>Kazakhstan</name>
+        <link>https://en.wikipedia.org/wiki/Kazakhstan</link>
     </row>
     <row>
         <id>jqvmap1_tm</id>
         <name>Turkmenistan</name>
+        <link>https://en.wikipedia.org/wiki/Turkmenistan</link>
     </row>
     <row>
         <id>jqvmap1_uz</id>
         <name>Uzbekistan</name>
+        <link>https://en.wikipedia.org/wiki/Uzbekistan</link>
     </row>
     <row>
         <id>jqvmap1_tj</id>
         <name>Tajikistan</name>
+        <link>https://en.wikipedia.org/wiki/Tajikistan</link>
     </row>
     <row>
         <id>jqvmap1_kg</id>
         <name>Kyrgyz Republic</name>
+        <link>https://en.wikipedia.org/wiki/Kyrgyzstan</link>
     </row>
     <row>
         <id>jqvmap1_af</id>
         <name>Afghanistan</name>
+        <link>https://en.wikipedia.org/wiki/Afghanistan</link>
     </row>
     <row>
         <id>jqvmap1_pk</id>
         <name>Pakistan</name>
+        <link>https://en.wikipedia.org/wiki/Pakistan</link>
     </row>
     <row>
         <id>jqvmap1_in</id>
         <name>India</name>
+        <link>https://en.wikipedia.org/wiki/India</link>
     </row>
     <row>
         <id>jqvmap1_np</id>
         <name>Nepal</name>
+        <link>https://en.wikipedia.org/wiki/Nepal</link>
     </row>
     <row>
         <id>jqvmap1_bt</id>
         <name>Bhutan</name>
+        <link>https://en.wikipedia.org/wiki/Bhutan</link>
     </row>
     <row>
         <id>jqvmap1_bd</id>
         <name>Bangladesh</name>
+        <link>https://en.wikipedia.org/wiki/Bangladesh</link>
     </row>
     <row>
         <id>jqvmap1_mm</id>
         <name>Myanmar</name>
+        <link>https://en.wikipedia.org/wiki/Myanmar</link>
     </row>
     <row>
         <id>jqvmap1_th</id>
         <name>Thailand</name>
+        <link>https://en.wikipedia.org/wiki/Thailand</link>
     </row>
     <row>
         <id>jqvmap1_kh</id>
         <name>Cambodia</name>
+        <link>https://en.wikipedia.org/wiki/Cambodia</link>
     </row>
     <row>
         <id>jqvmap1_la</id>
-        <name>Lao People's Democratic Republic</name>
+        <name>Lao People`s Democratic Republic</name>
+        <link>https://en.wikipedia.org/wiki/Laos</link>
     </row>
     <row>
         <id>jqvmap1_vn</id>
         <name>Vietnam</name>
+        <link>https://en.wikipedia.org/wiki/Vietnam</link>
     </row>
     <row>
         <id>jqvmap1_ge</id>
         <name>Georgia</name>
+        <link>https://en.wikipedia.org/wiki/Georgia_(country)</link>
     </row>
     <row>
         <id>jqvmap1_am</id>
         <name>Armenia</name>
+        <link>https://en.wikipedia.org/wiki/Armenia</link>
     </row>
     <row>
         <id>jqvmap1_az</id>
         <name>Azerbaijan</name>
+        <link>https://en.wikipedia.org/wiki/Azerbaijan</link>
     </row>
     <row>
         <id>jqvmap1_ir</id>
         <name>Iran</name>
+        <link>https://en.wikipedia.org/wiki/Iran</link>
     </row>
     <row>
         <id>jqvmap1_tr</id>
         <name>Turkey</name>
+        <link>https://en.wikipedia.org/wiki/Turkey</link>
     </row>
     <row>
         <id>jqvmap1_om</id>
         <name>Oman</name>
+        <link>https://en.wikipedia.org/wiki/Oman</link>
     </row>
     <row>
         <id>jqvmap1_ae</id>
         <name>United Arab Emirates</name>
+        <link>https://en.wikipedia.org/wiki/United_Arab_Emirates</link>
     </row>
     <row>
         <id>jqvmap1_qa</id>
         <name>Qatar</name>
+        <link>https://en.wikipedia.org/wiki/Qatar</link>
     </row>
     <row>
         <id>jqvmap1_kw</id>
         <name>Kuwait</name>
+        <link>https://en.wikipedia.org/wiki/Kuwait</link>
     </row>
     <row>
         <id>jqvmap1_sa</id>
         <name>Saudi Arabia</name>
+        <link>https://en.wikipedia.org/wiki/Saudi_Arabia</link>
     </row>
     <row>
         <id>jqvmap1_sy</id>
         <name>Syrian Arab Republic</name>
+        <link>https://en.wikipedia.org/wiki/Syrian_Arab_Republic</link>
     </row>
     <row>
         <id>jqvmap1_iq</id>
         <name>Iraq</name>
+        <link>https://en.wikipedia.org/wiki/Iraq</link>
     </row>
     <row>
         <id>jqvmap1_jo</id>
         <name>Jordan</name>
+        <link>https://en.wikipedia.org/wiki/Jordan</link>
     </row>
     <row>
         <id>jqvmap1_lb</id>
         <name>Lebanon</name>
+        <link>https://en.wikipedia.org/wiki/Lebanon</link>
     </row>
     <row>
         <id>jqvmap1_il</id>
         <name>Israel</name>
+        <link>https://en.wikipedia.org/wiki/Israel</link>
     </row>
     <row>
         <id>jqvmap1_cy</id>
         <name>Cyprus</name>
+        <link>https://en.wikipedia.org/wiki/Cyprus</link>
     </row>
     <row>
         <id>jqvmap1_gb</id>
         <name>United Kingdom</name>
+        <link>https://en.wikipedia.org/wiki/United_Kingdom</link>
     </row>
     <row>
         <id>jqvmap1_ie</id>
         <name>Ireland</name>
+        <link>https://en.wikipedia.org/wiki/Ireland</link>
     </row>
     <row>
         <id>jqvmap1_se</id>
         <name>Sweden</name>
+        <link>https://en.wikipedia.org/wiki/Sweden</link>
     </row>
     <row>
         <id>jqvmap1_fi</id>
         <name>Finland</name>
+        <link>https://en.wikipedia.org/wiki/Finland</link>
     </row>
     <row>
         <id>jqvmap1_lv</id>
         <name>Latvia</name>
+        <link>https://en.wikipedia.org/wiki/Latvia</link>
     </row>
     <row>
         <id>jqvmap1_lt</id>
         <name>Lithuania</name>
+        <link>https://en.wikipedia.org/wiki/Lithuania</link>
     </row>
     <row>
         <id>jqvmap1_by</id>
         <name>Belarus</name>
+        <link>https://en.wikipedia.org/wiki/Belarus</link>
     </row>
     <row>
         <id>jqvmap1_pl</id>
         <name>Poland</name>
+        <link>https://en.wikipedia.org/wiki/Poland</link>
     </row>
     <row>
         <id>jqvmap1_it</id>
         <name>Italy</name>
+        <link>https://en.wikipedia.org/wiki/Italy</link>
     </row>
     <row>
         <id>jqvmap1_fr</id>
         <name>France</name>
+        <link>https://en.wikipedia.org/wiki/France</link>
     </row>
     <row>
         <id>jqvmap1_nl</id>
         <name>Netherlands</name>
+        <link>https://en.wikipedia.org/wiki/Netherlands</link>
     </row>
     <row>
         <id>jqvmap1_be</id>
         <name>Belgium</name>
+        <link>https://en.wikipedia.org/wiki/Belgium</link>
     </row>
     <row>
         <id>jqvmap1_de</id>
         <name>Germany</name>
+        <link>https://en.wikipedia.org/wiki/Germany</link>
     </row>
     <row>
         <id>jqvmap1_dk</id>
         <name>Denmark</name>
+        <link>https://en.wikipedia.org/wiki/Denmark</link>
     </row>
     <row>
         <id>jqvmap1_ch</id>
         <name>Switzerland</name>
+        <link>https://en.wikipedia.org/wiki/Switzerland</link>
     </row>
     <row>
         <id>jqvmap1_cz</id>
         <name>Czech Republic</name>
+        <link>https://en.wikipedia.org/wiki/Czech_Republic</link>
     </row>
     <row>
         <id>jqvmap1_sk</id>
         <name>Slovakia</name>
+        <link>https://en.wikipedia.org/wiki/Slovakia</link>
     </row>
     <row>
         <id>jqvmap1_at</id>
         <name>Austria</name>
+        <link>https://en.wikipedia.org/wiki/Austria</link>
     </row>
     <row>
         <id>jqvmap1_hu</id>
         <name>Hungary</name>
+        <link>https://en.wikipedia.org/wiki/Hungary</link>
     </row>
     <row>
         <id>jqvmap1_si</id>
         <name>Slovenia</name>
+        <link>https://en.wikipedia.org/wiki/Slovenia</link>
     </row>
     <row>
         <id>jqvmap1_hr</id>
         <name>Croatia</name>
+        <link>https://en.wikipedia.org/wiki/Croatia</link>
     </row>
     <row>
         <id>jqvmap1_ba</id>
         <name>Bosnia and Herzegovina</name>
+        <link>https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina</link>
     </row>
     <row>
         <id>jqvmap1_mt</id>
         <name>Malta</name>
+        <link>https://en.wikipedia.org/wiki/Malta</link>
     </row>
     <row>
         <id>jqvmap1_ua</id>
         <name>Ukraine</name>
+        <link>https://en.wikipedia.org/wiki/Ukraine</link>
     </row>
     <row>
         <id>jqvmap1_md</id>
         <name>Moldova</name>
+        <link>https://en.wikipedia.org/wiki/Moldova</link>
     </row>
     <row>
         <id>jqvmap1_ro</id>
         <name>Romania</name>
+        <link>https://en.wikipedia.org/wiki/Romania</link>
     </row>
     <row>
         <id>jqvmap1_rs</id>
         <name>Serbia</name>
+        <link>https://en.wikipedia.org/wiki/Serbia</link>
     </row>
     <row>
         <id>jqvmap1_bg</id>
         <name>Bulgaria</name>
+        <link>https://en.wikipedia.org/wiki/Bulgaria</link>
     </row>
     <row>
         <id>jqvmap1_al</id>
         <name>Albania</name>
+        <link>https://en.wikipedia.org/wiki/Albania</link>
     </row>
     <row>
         <id>jqvmap1_mk</id>
         <name>Macedonia</name>
+        <link>https://en.wikipedia.org/wiki/North_Macedonia</link>
     </row>
     <row>
         <id>jqvmap1_gr</id>
         <name>Greece</name>
+        <link>https://en.wikipedia.org/wiki/Greece</link>
     </row>
 </root>

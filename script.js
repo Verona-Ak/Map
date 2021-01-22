@@ -3,8 +3,12 @@ window.addEventListener('DOMContentLoaded', ()=> {
 
         
     const title = document.getElementsByClassName('info__title')[0],
+        paragraph = document.getElementsByClassName('info__paragraph')[0],
         svgElem = document.querySelector('svg'),
-        regions = document.querySelectorAll('.jqvmap-region');
+        regions = document.querySelectorAll('.jqvmap-region'),
+        headerBtn = document.getElementsByClassName('header__btn')[0],
+        field = document.getElementsByClassName('header__field')[0],
+        main = document.getElementsByClassName('main')[0];
 
     let prompt = document.createElement('div');
     
@@ -21,7 +25,27 @@ window.addEventListener('DOMContentLoaded', ()=> {
             if(e.target) {
                 for(let i of data) {
                     if(e.target.id === i.id) {
-                        title.textContent = `${i.name} - страна`;
+                        title.textContent = `${i.name}`;
+
+                        let requestPost = new XMLHttpRequest();
+                        let body = 'link=' + encodeURIComponent(i.link);
+                        requestPost.open('POST', 'parser.php', true);
+                        requestPost.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
+                        requestPost.send(body);
+                        requestPost.addEventListener('load', () => {
+                            paragraph.textContent = JSON.parse(requestPost.response);
+                            
+                        });
+                        // let requestGet = new XMLHttpRequest();
+                        // requestGet.open('GET', 'wiki.json', true);
+                        // requestGet.setRequestHeader('Content-type', 'appLication/json; charset=utf-8');
+                        // requestGet.send();
+                        // requestGet.addEventListener('load', () => {
+                        //     paragraph.textContent = JSON.parse(requestGet.response);
+                        // });
+
+                        
+
                         e.target.style.cssText = `fill: #6e3d3d; stroke-opacity: 0.7; stroke: #ffffff;`;
                     } 
                 }
@@ -37,7 +61,8 @@ window.addEventListener('DOMContentLoaded', ()=> {
                         e.target.title = i.name;
                         let coords = e.target.getBoundingClientRect();
                         // console.log(coords);
-                        document.body.appendChild(prompt);
+                        main.appendChild(prompt);
+                        
                         prompt.classList.add('floatprompt');
                         prompt.textContent = i.name;
 
@@ -62,18 +87,35 @@ window.addEventListener('DOMContentLoaded', ()=> {
                 for(let i of data) {
                     if(e.target.id === i.id) {
                         clearProperty(regions, 'opacity');
-                        document.body.removeChild(prompt);
-                        // if(prompt) {
-                        //     console.log('prompt');
-                        //     prompt.remove();
-                        //     prompt = null;
-                        // }
+                        // main.removeChild(prompt);
+                        prompt.remove();
 
                     } 
                 }
             }
         })
 
+        headerBtn.addEventListener('click', ()=> {
+            clearProperty(regions, 'fill');
+            clearProperty(regions, 'opacity');
+            alert(field.value);
+
+            for(let obj of data) {
+                if(obj.name.toLowerCase() == field.value.trim().toLowerCase()) {
+                    title.textContent = `${obj.name} - страна`;
+                    let index = 0;
+                    while(index < regions.length) {
+                        index++;
+                        if(regions[index].id === obj.id) {
+                            regions[index].style.cssText = `fill: #6e3d3d; stroke-opacity: 0.7; stroke: #ffffff;`;
+                        }
+                    }
+                    
+                }
+                
+            }
+
+        });
 
 
     });
@@ -82,9 +124,6 @@ window.addEventListener('DOMContentLoaded', ()=> {
         for(let i = 0; i < arr.length; i++) {
             if(property == 'fill') {
                 arr[i].style = '';
-                // arr[i].style.fill = '';
-                // arr[i].style.strokeOpacity = '';
-                // arr[i].style.stroke = '';
             } else if(property == 'opacity') {
                 arr[i].style.opacity = '';
             }

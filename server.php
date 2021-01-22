@@ -1,47 +1,48 @@
 <?php
-    
 
-    // function insert($id, $name) {
+    /*
+        Загрузка в mysql данных из xml
+    */
+
+    // function insert($id, $name, $link) {
     //     $mysqli = new mysqli('localhost', 'root', '', 'countries');
     //     if(mysqli_connect_errno()) {
     //         printf('Соединение не установлено');
     //         exit();
     //     }
     //     $mysqli->set_charset('utf8');
-    //     printf($id);
-    //     // printf(`$name\n`);
-    //     $query= "INSERT INTO countries_info VALUES (null, '$id', '$name')";
+    //     $query= "INSERT INTO countries_info VALUES (null, '$id', '$name', '$link')";
 
     //     $result = false;
-
-
     //     if($mysqli->query($query)) {
     //         $result = true;
-    //         printf('+');
     //     }
-    //     printf($result);
-    //     if($result == false) {
-    //         printf('-');
-    //     }
-    //     return $result;
 
+    //     $mysqli->close();
+    //     return $result;
     // }
     // $xml = simplexml_load_file("inf.xml") or die ("Error");
 
     // $id = null;
     // $name = null;
-    // // $information = null;
+    // $link = null;
 
     // foreach ($xml as $key => $value) {
     //     $id = $value->id;
     //     $name = $value->name;
-    //     // $information = $value->information;
-    //     insert($id, $name);
-        
+    //     $link = $value->link;
+    //     insert($id, $name, $link);
     // }
-    // $mysqli->close();
-    $arr = [];
+
     
+    /*
+        Получение данных из mysqli и сохранение в массив, который записываем в json файл
+    */
+
+    
+    $arr = []; // Массив с данными из БД
+
+
     $mysqli = new mysqli('localhost', 'root', '', 'countries');
     if(mysqli_connect_errno()) {
         printf('Соединение не установлено');
@@ -49,9 +50,7 @@
     }
     $mysqli->set_charset('utf8');
 
-
     $query = $mysqli->query('SELECT * FROM countries_info');
-
     while($row = mysqli_fetch_assoc($query)) {
         $arr[] = $row;
     }
@@ -59,6 +58,7 @@
     $file = fopen('data.json', 'w+');
     fwrite($file, $json);
     fclose($file);
-
     $mysqli->close();
+
+    
 ?>

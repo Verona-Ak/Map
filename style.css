@@ -61,6 +61,12 @@
 	color: white;
 	font-size: 20px;
 }
+.info__paragraph {
+	color: white;
+	font-size: 14px;
+	text-align-last: left;
+	margin-top: 20px;
+}
 .jqvmap-label
 {
 	position: absolute;
