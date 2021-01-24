@@ -57,15 +57,22 @@
 	cursor: pointer;
 	font-weight: bold;
 }
+.info {
+	margin-left: 15px;
+	width: 50%;
+}
 .info__title {
 	color: white;
-	font-size: 20px;
+	font-size: 22px;
+	
 }
 .info__paragraph {
+	display: none;
 	color: white;
-	font-size: 14px;
+	font-size: 16px;
 	text-align-last: left;
 	margin-top: 20px;
+	width: 700px;
 }
 .jqvmap-label
 {

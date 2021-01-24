@@ -25,6 +25,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
             if(e.target) {
                 for(let i of data) {
                     if(e.target.id === i.id) {
+                        $('.info__paragraph').slideUp(700);
                         paragraph.textContent = '';
                         title.textContent = `${i.name}`;
 
@@ -33,21 +34,10 @@ window.addEventListener('DOMContentLoaded', ()=> {
                         requestPost.open('POST', 'parser.php', true);
                         requestPost.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
                         requestPost.send(body);
-                        requestPost.addEventListener('load', () => {
+                        requestPost.addEventListener('load', ()=> {
                             paragraph.textContent = requestPost.response;
-                            
-                            
+                            $('.info__paragraph').slideDown(700);
                         });
-                        // let requestGet = new XMLHttpRequest();
-                        // requestGet.open('GET', 'wiki.json', true);
-                        // requestGet.setRequestHeader('Content-type', 'appLication/json; charset=utf-8');
-                        // requestGet.send();
-                        // requestGet.addEventListener('load', () => {
-                        //     paragraph.textContent = JSON.parse(requestGet.response);
-                        // });
-
-                        
-
                         e.target.style.cssText = `fill: #6e3d3d; stroke-opacity: 0.7; stroke: #ffffff;`;
                     } 
                 }
@@ -100,11 +90,23 @@ window.addEventListener('DOMContentLoaded', ()=> {
         headerBtn.addEventListener('click', ()=> {
             clearProperty(regions, 'fill');
             clearProperty(regions, 'opacity');
-            alert(field.value);
 
             for(let obj of data) {
-                if(obj.name.toLowerCase() == field.value.trim().toLowerCase()) {
-                    title.textContent = `${obj.name} - страна`;
+                if(obj.name.toLowerCase() === field.value.trim().toLowerCase()) {
+                    $('.info__paragraph').slideUp(700);
+                    paragraph.textContent = '';
+
+                    title.textContent = `${obj.name}`;
+
+                    let requestPost = new XMLHttpRequest();
+                    let body = 'link=' + encodeURIComponent(obj.link);
+                    requestPost.open('POST', 'parser.php', true);
+                    requestPost.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
+                    requestPost.send(body);
+                    requestPost.addEventListener('load', ()=> {
+                        paragraph.textContent = requestPost.response;
+                        $('.info__paragraph').slideDown(700);
+                    });
                     let index = 0;
                     while(index < regions.length) {
                         index++;
@@ -130,8 +132,5 @@ window.addEventListener('DOMContentLoaded', ()=> {
                 arr[i].style.opacity = '';
             }
         }
-
-
     }
-
 });
