@@ -25,6 +25,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
             if(e.target) {
                 for(let i of data) {
                     if(e.target.id === i.id) {
+                        paragraph.textContent = '';
                         title.textContent = `${i.name}`;
 
                         let requestPost = new XMLHttpRequest();
@@ -33,7 +34,8 @@ window.addEventListener('DOMContentLoaded', ()=> {
                         requestPost.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
                         requestPost.send(body);
                         requestPost.addEventListener('load', () => {
-                            paragraph.textContent = JSON.parse(requestPost.response);
+                            paragraph.textContent = requestPost.response;
+                            
                             
                         });
                         // let requestGet = new XMLHttpRequest();
